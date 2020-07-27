@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -12,7 +13,14 @@
     body {
       font-size: 20px;
       font-family: 'Roboto', sans-serif;
-      background: linear-gradient(135deg, rgba(244,186,200,0.4) 0%, rgba(214,156,160,0.4) 25%, rgba(253,29,29,0.2) 100%);
+
+      background: #F4BAC8;
+      background: linear-gradient(
+        135deg,
+        rgba(244,186,200,0.4) 0%,
+        rgba(214,156,160,0.4) 25%,
+        rgba(253,29,29,0.2) 100%
+      );
 
       margin: 0;
     }
@@ -26,18 +34,21 @@
     }
 
     h1 {
-      font-size: 6em;
+      font-size: clamp(2rem, 14vw, 5rem);
       color: white;
       font-family: 'Tangerine', cursive;
       text-shadow: 4px 4px 10px rgba(100, 100, 100, 0.4);
 
-      margin: 0;
+      margin: 0.25em;
     }
 
     h2 {
       color: #262626;
-      text-shadow: 1px 1px 2px rgba(100, 100, 100, 0.6);
       font-weight: 300;
+      font-size: clamp(1.6rem, 6vw, 2.5rem);
+      text-shadow: 1px 1px 2px rgba(100, 100, 100, 0.6);
+
+      margin: 1em 0.5em;
     }
 
     .container {
@@ -47,7 +58,7 @@
       align-items: center;
       text-align: center;
 
-      padding: 2em;
+      padding: 0 2em 5em 2em;
     }
 
     #front_image {
@@ -78,7 +89,7 @@
   >
 
   <h1>Sonja Jayz</h1>
-  <h2>Hársnyrtir & Förðunarfræðingur</h2>
+  <h2>Hársnyrtir & <br />Förðunarfræðingur</h2>
 
   <ul class="contact">
     <li>Tímabókanir: <a href="tel:+3545173322">517 3322</a></li>
