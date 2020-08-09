@@ -1,0 +1,11 @@
+{
+  "name": "sonjajayz.com",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "lite-server --baseDir=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "2.5.4"
+  }
+}

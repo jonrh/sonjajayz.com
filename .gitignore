@@ -1,2 +1,5 @@
 # JetBrains IDE settings folder, WebStorm for example
 .idea/
+
+# Third party NPM dependencies
+node_modules/
