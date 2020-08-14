@@ -92,7 +92,7 @@
 <div class="container">
   <img
     src="sonja%20jayz%20hársnyrtir%20og%20förðunarfræðingur%20v2.png"
-    id="front_image" alt="Sonja Jasonardóttir á hársnyrtistofunni Labella"
+    id="front_image" alt="Sonja Jasonardóttir á hársnyrtistofunni Labella" class="tilt-glare"
   >
 
   <h1>Sonja Jasonardóttir</h1>
@@ -103,6 +103,15 @@
     <li>Instagram: <a href="https://instagram.com/hairbysonjajasonard">@hairbysonjajasonard</a></li>
   </ul>
 </div>
+
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+  VanillaTilt.init(document.querySelector(".tilt-glare"), {
+    max: 25,
+    speed: 400,
+    gyroscope: true,
+  });
+</script>
 
 </body>
 </html>
